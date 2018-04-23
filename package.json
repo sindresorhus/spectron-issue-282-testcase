@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"test": "cd test/fixture && ava"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"electron": "^2.0.0-beta.7",
+		"execa": "^0.10.0",
+		"spectron": "^3.8.0"
+	},
+	"peerDependencies": {
+		"electron": ">=1.8.4"
+	}
+}
